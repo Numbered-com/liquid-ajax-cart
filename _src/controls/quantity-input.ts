@@ -32,7 +32,7 @@ function isValidElement(element: Element): boolean {
     return false;
   }
 
-  if (!(element instanceof HTMLInputElement) || (element.type !== 'text' && element.type !== 'number')) {
+  if (!(element instanceof HTMLInputElement) || (element.type !== 'text' && element.type !== 'number' && element.type !== 'select')) {
     console.error(`Liquid Ajax Cart: the ${DATA_ATTR_QUANTITY_INPUT} attribute supports "input" elements only with the "text" and the "number" types`);
     return false;
   }
