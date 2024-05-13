@@ -1,6 +1,6 @@
 {
 	"name": "@numbered/liquid-ajax-cart",
-	"version": "2.1.1",
+	"version": "2.1.3",
 	"description": "Build a Shopify Ajax-cart without JavaScript coding",
 	"private": false,
 	"browser": "./liquid-ajax-cart.js",
@@ -23,7 +23,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git@github.com:Numbered-com/liquid-ajax-cart.git"
+		"url": "git+ssh://git@github.com/Numbered-com/liquid-ajax-cart.git"
 	},
 	"author": "Evgeniy Mukhamedjanov (https://github.com/EvgeniyMukhamedjanov)",
 	"license": "ISC",
